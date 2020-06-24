@@ -1,7 +1,6 @@
 {
   "name": "5-22-06-20",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,10 @@
   "author": "yosef",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "cowsay": "^1.4.0",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
