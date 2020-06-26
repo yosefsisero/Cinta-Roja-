@@ -1,5 +1,5 @@
 
-
+/*
 function getUsers(callback){
 
     let datos = [
@@ -18,7 +18,7 @@ getUsers(function(data, mensaje){
     console.log(data)
     console.log(mensaje)
 }
-)
+)*/
 
 /*
 lo que estamos haciendo es como invertir la funcion, es decir 
@@ -36,8 +36,8 @@ funcion que le vamos a pasar los parametros que escribimos antes
      */
 
  
-function operacion(num1, num2, operacion /*callback = operacion*/){
-   return operacion(num1, num2)
+function operacion(num1, num2, operaciones /*callback = operacion*/){
+   return operaciones(num1, num2)
 }     
 
 function suma(num1, num2){
@@ -51,5 +51,6 @@ function resta(num1, num2){
 function mult(num1, num2){
     return num1 * num2
 }
-
+console.log('antes')
 console.log(operacion(7, 8, suma))
+console.log('despues')
