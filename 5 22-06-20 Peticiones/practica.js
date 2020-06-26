@@ -47,7 +47,8 @@ request('http://openlibrary.org/search.json?q=i+robot', function(error, response
 
  /*   
 5.- Hacer una petición a la swapi a un personaje y obtener 
-    sus películas.  https://swapi.co/    */
+    sus películas.  https://swapi.co/   */
+
 
     request('https://swapi.dev/api/people/2/', function(error, response, body){
         console.log('Error', error)
@@ -56,8 +57,7 @@ request('http://openlibrary.org/search.json?q=i+robot', function(error, response
         console.log(`El personaje ${data.name} aparece en las siguientes peliculas ${data.films[0]}.`)
     })
 
-
-
+ 
 
  /*                   
 6.- Devolver los asteroides que sean potencialmente peligrosos
