@@ -1,4 +1,5 @@
 import React from 'react'
+import DeleteTodo from '../DeleteTodo/DeleteTodo'
 
 function TodoCard(props) {
     const background ={
@@ -13,9 +14,9 @@ function TodoCard(props) {
                   <h2>{props.name}</h2>
                 </div>
                 <div className="card-text">
-                    {
-                      props.done ? <p>Done</p> : <p> Not done</p>
-                    }
+                    {props.done ? <p>Done</p> : <p> Not done</p> }
+                     <DeleteTodo _id={props._id}/>
+                   
                 </div>   
             </div>
         </div>

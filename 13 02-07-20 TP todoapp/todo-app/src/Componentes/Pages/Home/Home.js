@@ -38,6 +38,7 @@ function Home() {
               priority={todo.priority} 
               name={todo.name} 
               done={todo.done}
+              _id={todo._id}
               key={todo._id}
               /> 
               
@@ -55,6 +56,7 @@ function Home() {
               priority={todo.priority} 
               name={todo.name} 
               done={todo.done}
+              _id={todo._id}
               key={todo._id}
               /> 
               
@@ -72,6 +74,7 @@ function Home() {
               priority={todo.priority} 
               name={todo.name} 
               done={todo.done}
+              _id={todo._id}
               key={todo._id}
               /> 
              
